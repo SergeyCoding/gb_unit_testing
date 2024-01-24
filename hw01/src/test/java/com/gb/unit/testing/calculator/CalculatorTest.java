@@ -33,5 +33,7 @@ class CalculatorTest {
 
     @Test
     void calculation() {
+        double v = Calculator.calculatingDiscount(1, 2);
+
     }
 }
