@@ -1,4 +1,4 @@
-package seminars.first.Shop;
+package com.gb.unit.testing.Shop;
 
 public class Product {
     private Integer cost; // Стоимость продукта

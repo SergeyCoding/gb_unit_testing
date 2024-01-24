@@ -1,4 +1,4 @@
-package seminars.first.Calculator;
+package com.gb.unit.testing.Calculator;
 
 import seminars.first.Calculator.Calculator;
 
