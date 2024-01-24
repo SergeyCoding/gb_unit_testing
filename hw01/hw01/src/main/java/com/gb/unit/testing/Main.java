@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         // Проверьте, как работают методы:
 
-        assertConditionA();
+        // assertConditionA();
 
         // assertConditionB();
 
@@ -116,8 +116,7 @@ public class Main {
 
     // 1.7
     public static void testingJavaCollectionsAssertJ(String[] colors) {
-        assertThat(colors)
-                .isNotEmpty()             // Массив не должен быть пустым
+        assertThat(colors).isNotEmpty()             // Массив не должен быть пустым
                 .hasSize(7)      // Размер массива должен быть равен 7
                 .doesNotHaveDuplicates() // Массив не должен содержать повторяющихся элементов
                 .contains("orange", "green", "violet") // Массив должен содержать цвета: "orange", "green", "violet"
