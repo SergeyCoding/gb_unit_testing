@@ -1,6 +1,5 @@
-package com.gb.unit.testing.Shop;
+package com.gb.unit.testing.shop;
 
-import java.util.Comparator;
 import java.util.List;
 
 public class Shop {
