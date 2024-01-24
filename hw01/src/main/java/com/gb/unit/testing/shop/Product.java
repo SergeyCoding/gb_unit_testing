@@ -1,4 +1,4 @@
-package com.gb.unit.testing.Shop;
+package com.gb.unit.testing.shop;
 
 public class Product {
     private Integer cost; // Стоимость продукта

@@ -1,4 +1,4 @@
-package com.gb.unit.testing.Calculator;
+package com.gb.unit.testing.calculator;
 
 public class Calculator {
     public static int calculation(int firstOperand, int secondOperand, char operator) {
@@ -34,10 +34,10 @@ public class Calculator {
         //  Отрицательные числа
         //  Дробные значения корней
         //  Целые
-            if(num < 0) {
-                throw new IllegalArgumentException("Cannot calculate square root of a negative number");
-            }
-            return Math.sqrt(num);
+        if (num < 0) {
+            throw new IllegalArgumentException("Cannot calculate square root of a negative number");
+        }
+        return Math.sqrt(num);
     }
 
     // Нужно написать в калькуляторе метод вычисления суммы покупки со скидкой и проверить его, используя AssertJ
