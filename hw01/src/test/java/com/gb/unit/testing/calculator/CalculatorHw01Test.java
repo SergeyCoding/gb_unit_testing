@@ -32,6 +32,9 @@ class CalculatorHw01Test {
         Assertions.assertThat(value).isEqualTo(100);
     }
 
+    /**
+     * Недопустимые аргументы
+     */
     @ParameterizedTest
     @CsvSource({"-1,20", "100,120", "100,-1"})
     void testIllegalParams(double purchaseAmount, int discountAmount) {
