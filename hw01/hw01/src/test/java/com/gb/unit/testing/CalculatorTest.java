@@ -1,8 +1,7 @@
-package com.gb.unit.testing.Calculator;
+package com.gb.unit.testing;
 
-import seminars.first.Calculator.Calculator;
 
-import static org.assertj.core.api.Assertions.*;
+import com.gb.unit.testing.Calculator.Calculator;
 
 public class CalculatorTest {
     public static void main(String[] args) {

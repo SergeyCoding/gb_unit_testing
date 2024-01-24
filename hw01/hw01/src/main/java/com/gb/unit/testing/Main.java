@@ -7,13 +7,13 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class Main {
     public static void main(String[] args) {
         // Проверьте, как работают методы:
 
-        // assertConditionA();
+        assertConditionA();
 
         // assertConditionB();
 
@@ -169,6 +169,7 @@ public class Main {
         public void setName(String name) {
             this.name = name;
         }
+
 
         public int getArmorStrength() {
             return armorStrength;
