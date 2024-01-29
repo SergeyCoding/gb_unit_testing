@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18139c69-88dd-4710-858f-ef5d1555493f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="VehicleTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2bWxuwTa5kD96Lqq8D19D8I6ble" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CarTest.executor": "Run",
+    "JUnit.VehicleTest.executor": "Run",
+    "JUnit.VehicleTest.testCarTestDriveSpeed.executor": "Run",
+    "JUnit.VehicleTest.testMotorcycleHaveTwoWheels.executor": "Run",
+    "JUnit.VehicleTest.testMotorcycleTestDriveSpeed.executor": "Run",
+    "JUnit.com.gb.unit.testing in hw02.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "hw02",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/TFS/GB/17-UnitTesting/hw02/src/main/java/org/example/Main.java",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TFS\GB\17-UnitTesting\hw02\src\main\java\com\gb\unit\testing" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gb.unit.testing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.gb.unit.testing in hw02">
+    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.testCarTestDriveSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
+      <option name="METHOD_NAME" value="testCarTestDriveSpeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.testMotorcycleHaveTwoWheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
+      <option name="METHOD_NAME" value="testMotorcycleHaveTwoWheels" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.testMotorcycleTestDriveSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
+      <option name="METHOD_NAME" value="testMotorcycleTestDriveSpeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gb.unit.testing in hw02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.gb.unit.testing in hw02" />
+      <item itemvalue="JUnit.VehicleTest" />
+      <item itemvalue="JUnit.VehicleTest.testCarTestDriveSpeed" />
+      <item itemvalue="JUnit.VehicleTest.testMotorcycleHaveTwoWheels" />
+      <item itemvalue="JUnit.VehicleTest.testMotorcycleTestDriveSpeed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.gb.unit.testing in hw02" />
+        <item itemvalue="JUnit.VehicleTest" />
+        <item itemvalue="JUnit.VehicleTest.testMotorcycleTestDriveSpeed" />
+        <item itemvalue="JUnit.VehicleTest.testCarTestDriveSpeed" />
+        <item itemvalue="JUnit.VehicleTest.testMotorcycleHaveTwoWheels" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18139c69-88dd-4710-858f-ef5d1555493f" name="Changes" comment="" />
+      <created>1706344863136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706344863136</updated>
+    </task>
+    <servers />
+  </component>
+</project>
