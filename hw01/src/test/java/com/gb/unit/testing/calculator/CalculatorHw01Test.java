@@ -1,6 +1,7 @@
 package com.gb.unit.testing.calculator;
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -17,6 +18,7 @@ class CalculatorHw01Test {
     /**
      * Скидка 20%
      */
+    @DisplayName("Тест скидки 20%")
     @Test
     void testDiscount20() {
         double value = Calculator.calculatingDiscount(100, 20);
@@ -26,6 +28,7 @@ class CalculatorHw01Test {
     /**
      * Нет скидки
      */
+    @DisplayName("Нет скидки")
     @Test
     void testNoDiscount() {
         double value = Calculator.calculatingDiscount(100, 0);
@@ -35,11 +38,13 @@ class CalculatorHw01Test {
     /**
      * Недопустимые аргументы
      */
+    @DisplayName("Недопустимые аргументы")
     @ParameterizedTest
-    @CsvSource({"-1,20", "100,120", "100,-1"})
-    void testIllegalParams(double purchaseAmount, int discountAmount) {
+    @CsvSource({"Негативное значение суммы покупки,-1,20", "Слишком большая скидка,100,120", "Отрицательная скидка,100,-1"})
+    void testIllegalParams(String description, double purchaseAmount, int discountAmount) {
         assertThatThrownBy(() -> {
             double value = Calculator.calculatingDiscount(purchaseAmount, discountAmount);
-        }).isInstanceOf(ArithmeticException.class);
+        }).isInstanceOf(ArithmeticException.class)
+                .hasMessage(description);
     }
 }
