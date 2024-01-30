@@ -12,7 +12,7 @@ public class User {
         this.password = password;
 
     }
-
+    
     //3.6.
     public boolean authenticate(String name, String password) {
         return false;
