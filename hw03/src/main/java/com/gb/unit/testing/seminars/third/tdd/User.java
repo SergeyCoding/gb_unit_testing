@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package com.gb.unit.testing.seminars.third.tdd;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package com.gb.unit.testing.seminars.third.tdd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class UserRepository {
     List<User> data = new ArrayList<>();
 
     public void addUser(User user) {
-       //..
+        //..
     }
 
     public boolean findByName(String username) {
