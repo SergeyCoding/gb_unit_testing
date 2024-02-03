@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="803efc88-f58e-414f-ad2a-83897a888956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gb/unit/testing/seminars/third/hw/MainHWTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" afterDir="false" />
-    </list>
-
+    <list default="true" id="31b6d08b-0815-4919-911a-6d3370fecb49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -32,17 +16,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2bguds2v1dFQsXbrjuF6ViR73vp" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2bqcMxl8MNI7DYVY7HTOjZbSK1X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,23 +38,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "seminar03",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "hw04",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/TFS/GB/17-UnitTesting/hw03/src/main/java/com/gb/unit/testing/Main.java",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.gb.unit.testing.seminars.third.hw" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,11 +55,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="803efc88-f58e-414f-ad2a-83897a888956" name="Changes" comment="" />
-      <created>1706649133946</created>
+      <changelist id="31b6d08b-0815-4919-911a-6d3370fecb49" name="Changes" comment="" />
+      <created>1706946005397</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706649133946</updated>
+      <updated>1706946005397</updated>
     </task>
     <servers />
   </component>

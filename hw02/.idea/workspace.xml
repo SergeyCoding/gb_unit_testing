@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18139c69-88dd-4710-858f-ef5d1555493f" name="Changes" comment="" />
+    <list default="true" id="18139c69-88dd-4710-858f-ef5d1555493f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CarTest.executor": "Run",
+    "JUnit.MotorcycleTest.executor": "Run",
+    "JUnit.Unnamed.executor": "Coverage",
     "JUnit.VehicleTest.executor": "Run",
     "JUnit.VehicleTest.testCarTestDriveSpeed.executor": "Run",
     "JUnit.VehicleTest.testMotorcycleHaveTwoWheels.executor": "Run",
@@ -55,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "hw02",
+    "git-widget-placeholder": "seminar03",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/TFS/GB/17-UnitTesting/hw02/src/main/java/org/example/Main.java",
     "rearrange.code.on.save": "true",
@@ -73,67 +77,13 @@
       <recent name="com.gb.unit.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.gb.unit.testing in hw02">
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Unnamed">
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="hw02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gb.unit.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
+      <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.testCarTestDriveSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gb.unit.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
-      <option name="METHOD_NAME" value="testCarTestDriveSpeed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.testMotorcycleHaveTwoWheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gb.unit.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
-      <option name="METHOD_NAME" value="testMotorcycleHaveTwoWheels" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.testMotorcycleTestDriveSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hw02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gb.unit.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gb.unit.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.VehicleTest" />
-      <option name="METHOD_NAME" value="testMotorcycleTestDriveSpeed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,20 +104,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.com.gb.unit.testing in hw02" />
-      <item itemvalue="JUnit.VehicleTest" />
-      <item itemvalue="JUnit.VehicleTest.testCarTestDriveSpeed" />
-      <item itemvalue="JUnit.VehicleTest.testMotorcycleHaveTwoWheels" />
-      <item itemvalue="JUnit.VehicleTest.testMotorcycleTestDriveSpeed" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.gb.unit.testing in hw02" />
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.VehicleTest.testMotorcycleTestDriveSpeed" />
-        <item itemvalue="JUnit.VehicleTest.testCarTestDriveSpeed" />
-        <item itemvalue="JUnit.VehicleTest.testMotorcycleHaveTwoWheels" />
       </list>
     </recent_temporary>
   </component>
@@ -188,5 +127,8 @@
       <updated>1706344863136</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hw02$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1706543690882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
