@@ -4,7 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="803efc88-f58e-414f-ad2a-83897a888956" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/gb/unit/testing/seminars/third/hw/MainHWTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -12,13 +11,11 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" afterDir="false" />
     </list>
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,7 +39,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
