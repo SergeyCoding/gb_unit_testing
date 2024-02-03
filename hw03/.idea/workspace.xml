@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="803efc88-f58e-414f-ad2a-83897a888956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gb/unit/testing/seminars/third/hw/MainHWTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/hw/MainHW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/unit/testing/seminars/third/tdd/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gb/unit/testing/seminars/third/hw/MainHWTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gb/unit/testing/seminars/third/hw/MainHWTest.java" afterDir="false" />
     </list>
-
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,7 +35,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,15 +42,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.MainHWTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "seminar03",
+    "git-widget-placeholder": "hw03",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/TFS/GB/17-UnitTesting/hw03/src/main/java/com/gb/unit/testing/Main.java",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,6 +61,28 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gb.unit.testing.seminars.third.hw" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainHWTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gb.unit.testing.seminars.third.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gb.unit.testing.seminars.third.hw" />
+      <option name="MAIN_CLASS_NAME" value="com.gb.unit.testing.seminars.third.hw.MainHWTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainHWTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
