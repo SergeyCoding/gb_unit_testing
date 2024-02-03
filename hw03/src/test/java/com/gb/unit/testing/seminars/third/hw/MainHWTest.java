@@ -25,7 +25,6 @@ class MainHWTest {
         assertThat(b).isEqualTo(false);
     }
 
-    @Test
     @DisplayName("Не в интервале")
     @ParameterizedTest
     @CsvSource({"10", "25", "100", "111"})
@@ -35,13 +34,12 @@ class MainHWTest {
         assertThat(b).isEqualTo(false);
     }
 
-    @Test
     @DisplayName("В интервале")
     @ParameterizedTest
     @CsvSource({"26", "30", "99", "80"})
     void numberInInterval(int k) {
         MainHW mainHW = new MainHW();
         boolean b = mainHW.numberInInterval(k);
-        assertThat(b).isEqualTo(false);
+        assertThat(b).isEqualTo(true);
     }
 }
