@@ -15,4 +15,18 @@ public class ListComparator {
     public boolean Compare() {
         return true;
     }
+
+    public double GetAvg(int listIndex) {
+        if (listIndex == 1)
+            return GetListAvg(list1);
+
+        if (listIndex == 2)
+            return GetListAvg(list2);
+
+        throw new RuntimeException("Неверное значние listIndex");
+    }
+
+    private double GetListAvg(List<Integer> list1) {
+        return 0;
+    }
 }
