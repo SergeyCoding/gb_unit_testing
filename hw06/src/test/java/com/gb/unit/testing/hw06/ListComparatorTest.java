@@ -27,7 +27,7 @@ class ListComparatorTest {
         var l2 = new TestGenerator(6).GetList(1, 7);
 
         var listComparator = new ListComparator(l1, l2);
-        var result = listComparator.GetAvg(1);
+        var result = listComparator.getAvg(1);
 
         Assertions.assertEquals(10, result);
     }
@@ -39,7 +39,7 @@ class ListComparatorTest {
         var l2 = new TestGenerator(6).GetList(1, 7);
 
         var listComparator = new ListComparator(l1, l2);
-        var result = listComparator.GetAvg(2);
+        var result = listComparator.getAvg(2);
 
         Assertions.assertNotNull(listComparator);
     }
@@ -52,7 +52,7 @@ class ListComparatorTest {
 
         var listComparator = new ListComparator(l1, l2);
 
-        Assertions.assertThrows(RuntimeException.class, () -> listComparator.GetAvg(0), "Неверное значение listIndex");
+        Assertions.assertThrows(RuntimeException.class, () -> listComparator.getAvg(0), "Неверное значение listIndex");
     }
 
 
