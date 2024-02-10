@@ -29,19 +29,19 @@ class ListComparatorTest {
         var listComparator = new ListComparator(l1, l2);
         var result = listComparator.getAvg(1);
 
-        Assertions.assertEquals(10, result);
+        Assertions.assertEquals(10.0, result);
     }
 
     @DisplayName("Рассчитывает среднее значение второго списка")
     @Test
     void listComparator_AvgList2_Test() {
         var l1 = new TestGenerator(5).GetList(1, 7);
-        var l2 = new TestGenerator(6).GetList(1, 7);
+        var l2 = new ArrayList<Integer>(Arrays.asList(1, 10, 19));
 
         var listComparator = new ListComparator(l1, l2);
         var result = listComparator.getAvg(2);
 
-        Assertions.assertNotNull(listComparator);
+        Assertions.assertEquals(10, result);
     }
 
     @DisplayName("Ожидаемое исключение")
@@ -63,8 +63,9 @@ class ListComparatorTest {
         var l2 = new TestGenerator(6).GetList(1, 7);
 
         var listComparator = new ListComparator(l1, l2);
+        var result = listComparator.compareInformation();
 
-        Assertions.assertNotNull(listComparator);
+        Assertions.assertNotNull("Первый список имеет большее среднее значение", result);
     }
 
     @DisplayName("Тест: Второй список имеет большее среднее значение")
@@ -74,18 +75,20 @@ class ListComparatorTest {
         var l2 = new TestGenerator(6).GetList(8, 10);
 
         var listComparator = new ListComparator(l1, l2);
+        var result = listComparator.compareInformation();
 
-        Assertions.assertNotNull(listComparator);
+        Assertions.assertNotNull("Второй список имеет большее среднее значение", result);
     }
 
     @DisplayName("Тест: Средние значения равны")
     @Test
     void listComparator_AvgEquals_Test() {
         var l1 = new TestGenerator(5).GetList(1, 7);
-        var l2 = new TestGenerator(6).GetList(1, 7);
+        var l2 = l1;
 
         var listComparator = new ListComparator(l1, l2);
+        var result = listComparator.compareInformation();
 
-        Assertions.assertNotNull(listComparator);
+        Assertions.assertNotNull("Средние значения равны", result);
     }
 }

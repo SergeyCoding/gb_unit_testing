@@ -28,15 +28,23 @@ public class ListComparator {
     }
 
     /**
-     * compare.
+     * Сравнение средних значений, и выдача результата в текстовом виде.
      *
-     * @return a
+     * @return Результат сравнения
      */
-    public boolean compare() {
-        if (getAvg(1) > getAvg(2)) {
-            return false;
+    public String compareInformation() {
+        double avg1 = getAvg(1);
+        double avg2 = getAvg(2);
+
+        if (avg1 == avg2) {
+            return "Средние значения равны";
         }
-        return true;
+
+        if (avg1 > avg2) {
+            return "Первый список имеет большее среднее значение";
+        }
+
+        return "Второй список имеет большее среднее значение";
     }
 
     /**
@@ -57,7 +65,13 @@ public class ListComparator {
         throw new RuntimeException("Неверное значние listIndex");
     }
 
-    private double getListAvg(final List<Integer> plist1) {
-        return 0;
+    private double getListAvg(final List<Integer> plist) {
+        var s = 0.0;
+
+        for (var item : plist) {
+            s = s + item;
+        }
+
+        return s / plist.size();
     }
 }
